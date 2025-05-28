@@ -41,9 +41,9 @@ my-portfolio/
 ## 🔧 Installation (Local Development)
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/VeilInspired/dukeportfolio.git
    🌐 Live Deployment
-Portfolio: your-username.github.io
+Portfolio: VeilInspired.github.io
 
 Age Calculator: Live Demo
 
@@ -68,6 +68,7 @@ GitHub Deployment
 Broken links due to incorrect branch settings
 
 Skills Gained
+
 ✅ Advanced CSS positioning
 
 ✅ JavaScript DOM manipulation
@@ -94,7 +95,6 @@ Push to branch (git push origin feature/improvement)
 
 Open a Pull Request
 
-📧 Contact: your.email@example.com
-🔗 LinkedIn: your-profile
+📧 Contact: dukechris69@gmail.com
+🔗 LinkedIn: DukeAttah
 
-Last updated: ${new Date().toLocaleDateString()}
