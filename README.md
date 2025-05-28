@@ -84,17 +84,6 @@ Implement React.js version
 
 Integrate a contact form backend
 
-🤝 How to Contribute
-Fork the repository
-
-Create a new branch (git checkout -b feature/improvement)
-
-Commit changes (git commit -m 'Add feature')
-
-Push to branch (git push origin feature/improvement)
-
-Open a Pull Request
-
 📧 Contact: dukechris69@gmail.com
 🔗 LinkedIn: DukeAttah
 
