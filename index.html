@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Duke's Frontend Portfolio - React, Javascript, CSS">
+    <title>Duke's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+     <!--Navigation-->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Duke's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Duke's Portfolio</a>
+
+            <!-- Hamburger Icon -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hey, I'm Duke</h1>
+            <h2>A Frontend Developer</h2>
+            <p>Creating beautiful responsive websites with clean code</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="scroll-prompt">
+            <span>Scroll down</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/images/IMG_1851.JPG" class="small-image" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <div class="professional-summary">
+                        <h4>Frontend Developer | Responsive Web Design | UX Enthusiast</h4>
+                        <p class="intro">Passionate about building impactful digital experiences through clean code and thoughtful design. My journey in frontend development is driven by a commitment to creating responsive websites and web applications that truly make a difference.</p>
+                        
+                        <div class="highlights">
+                            <h5>What I Bring:</h5>
+                            <ul>
+                                <li>Recently earned <strong>Advanced Frontend Certification</strong> from New Horizons ICT</li>
+                                <li>Strong focus on <strong>intuitive user experiences</strong> and <strong>efficient, maintainable code</strong></li>
+                                <li>Dedication to merging <strong>creativity with functionality</strong> in every project</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="interests">
+                            <h5>Beyond Coding:</h5>
+                            <ul>
+                                <li>Continuously exploring <strong>new technologies</strong> to expand my skill set</li>
+                                <li>Active contributor to <strong>open-source projects</strong>, believing in collaborative growth</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="javascript">
+                    <div class="age-calculator">
+                        <h3>Age Calculator</h3>
+                        <div class="calculator-container">
+                            <input type="date" id="birthdate" class="date-input">
+                            <button id="calculate-btn" class="btn">Calculate Age</button>
+                            <div id="result" class="result-box">
+                                <p>Enter your birthdate above</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Age Calculator</h3>
+                        <p>A tool that calculates your exact age in years, months, and days.</p>
+                        <div class="tech-used">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <div class="project-links">
+
+                                <!-- Code Button -->
+                                <a href="https://github.com/VeilInsipred/age-calculator.git" class="code-btn"
+                                    target="_blank">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="javascript">
+                    <div class="rps-game">
+                        <h3>Rock Paper Scissors</h3>
+                        <div class="game-container">
+                            <div class="choices">
+                                <button class="choice-btn" data-choice="rock">✊</button>
+                                <button class="choice-btn" data-choice="paper">✋</button>
+                                <button class="choice-btn" data-choice="scissors">✌️</button>
+                            </div>
+                            <div id="game-result" class="result-box">
+                                <p>Make your choice!</p>
+                            </div>
+                            <div class="scoreboard">
+                                <p>You: <span id="player-score">0</span></p>
+                                <p>Computer: <span id="computer-score">0</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Rock Paper Scissors</h3>
+                        <p>Classic game with score tracking and responsive design.</p>
+                        <div class="tech-used">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <div class="project-links">
+                                
+                                <!-- Code Button -->
+                                <a href="https://github.com/VeilInsipred/rock-paper-scissors.git" class="code-btn"
+                                    target="_blank">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill">
+                        <p>HTML5</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>CSS3</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 69%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill">
+                        <p>Git</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 74%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p>VS Code</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 81%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>New Horizons ICT</h3>
+                        <h4>Advanced Frontend Certification</h4>
+                        <p>Completed intensive training in modern frontend development technologies including HTML5,
+                            CSS3, JavaScript, and responsive design principles.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p>Assisted in developing and maintaining client websites, implemented responsive designs, and
+                            collaborated with senior developers on various projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> dukechris69@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +2348101482545</p>
+                    <div class="social-links">
+                        <a href="https://github.com/VeilInsipred"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Duke Attah. All rights reserved.</p>
+            <p>Last Updated: <span id="datetime">25/05/2025</span></p>
+            <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
